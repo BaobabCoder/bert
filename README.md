@@ -1,5 +1,5 @@
 ### Bert
-Bert is a client side, multi-style alerts system for Meteor.
+Bert is a client side, multi-style alerts system for Meteor initially made by ![The Meteor Chef](http://github.com/themeteorchef/bert).
 
 ![Say what again!](https://cl.ly/0d3O121h021t/bert.jpg)
 
@@ -18,7 +18,7 @@ Bert is a client side, multi-style alerts system for Meteor.
 To get Bert into your app, just run the following command from within your project's directory:
 
 ```
-meteor add themeteorchef:bert
+meteor add baobabcoder:bert
 ```
 
 #### Upgrade Warning
@@ -89,6 +89,10 @@ Bert wants to make sure that your users know how angry (or happy) he is about wh
   - `growl-top-right`
   - `growl-bottom-left`
   - `growl-bottom-right`
+  - `lined-top-left`
+  - `lined-top-right`
+  - `lined-bottom-left`
+  - `lined-bottom-right`
 
 
 - `Bert.icons` (based on the type passed to Bert)
@@ -97,6 +101,15 @@ Bert wants to make sure that your users know how angry (or happy) he is about wh
   - `info`: `'fa-info'`,
   - `warning`: `'fa-warning'`,
   - `danger`: `'fa-remove'`
+
+This version also allows to use another icons font and does not include anymore font-awesome. You have to import the package by your own to use it. You may prefer using `themify`, for example :
+
+  - `default`: `'ti-bell'`,
+  - `success`: `'ti-check'`,
+  - `info`: `'ti-info'`,
+  - `warning`: `'ti-alert'`,
+  - `danger`: `'ti-face-sad'`
+
 
 If you'd like (recommended), you can set any of the values above as defaults, along with a few other settings:
 

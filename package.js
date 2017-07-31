@@ -1,8 +1,8 @@
 Package.describe({
     name: 'baobabcoder:bert',
-    version: '2.1.3',
-    summary: 'A client side, multi-style alerts system for Meteor.',
-    git: 'http://github.com/themeteorchef/bert',
+    version: '2.1.4',
+    summary: 'A fork of the client side, multi-style alerts system for Meteor initially made by The Meteor Chef.',
+    git: 'http://github.com/BaobabCoder/bert',
     documentation: 'README.md'
 });
 
