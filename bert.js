@@ -3,6 +3,10 @@ class BertAlert {
         this.styles = [
             'fixed-top',
             'fixed-bottom',
+            'growl-top-left',
+            'growl-top-right',
+            'growl-bottom-left',
+            'growl-bottom-right',
             'lined-top-left',
             'lined-top-right',
             'lined-bottom-left',
@@ -59,7 +63,9 @@ class BertAlert {
 
     bertTimer() {
         clearTimeout(this.timer);
-        this.timer = setTimeout(() => { this.hide(); }, this.defaults.hideDelay);
+        if(this.defaults.hideDelay > 0) {
+            this.timer = setTimeout(() => { this.hide(); }, this.defaults.hideDelay);
+        }
         return this.timer;
     }
 
