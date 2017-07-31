@@ -3,10 +3,10 @@ class BertAlert {
         this.styles = [
             'fixed-top',
             'fixed-bottom',
-            'growl-top-left',
-            'growl-top-right',
-            'growl-bottom-left',
-            'growl-bottom-right'
+            'lined-top-left',
+            'lined-top-right',
+            'lined-bottom-left',
+            'lined-bottom-right'
         ];
 
         this.types = [
